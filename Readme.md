@@ -11,10 +11,8 @@
 
 ## 📸 Demo
 
-![Demo Screenshot](./Screenshots/demo.gif)
-
-(./Screenshots/dash1.png)
-(./Screenshots/ext2.png)
+![Demo Screenshot](./Screenshots/ext2.png)
+![Demo Screenshot](./Screenshots/dash1.png)
 
 ---
 
