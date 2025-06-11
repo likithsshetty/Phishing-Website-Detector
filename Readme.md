@@ -47,6 +47,6 @@
 
 ```bash
 git clone https://github.com/likithsshetty/Real-Time-Phishing-Detector.git
+````
+
 cd Real-Time-Phishing-Detector
-
-
