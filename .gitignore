@@ -1,0 +1,36 @@
+# Backend
+backend/.conda
+backend/.env
+backend/logs/*
+
+
+# Extension
+extension/logs
+extension/*.log
+extension/npm-debug.log*
+extension/yarn-debug.log*
+extension/yarn-error.log*
+extension/pnpm-debug.log*
+extension/lerna-debug.log*
+extension/node_modules
+extension/dist
+extension/dist-ssr
+extension/*.local
+extension/# Editor directories and files
+extension/.vscode/*
+extension/!.vscode/extensions.json
+extension/.idea
+extension/.DS_Store
+extension/*.suo
+extension/*.ntvs*
+extension/*.njsproj
+extension/*.sln
+extension/*.sw?
+
+
+# frontend
+frontend/node_modules
+frontend/out
+frontend/.next
+frontend/package-lock.json
+frontend/pnpm-lock.yaml
