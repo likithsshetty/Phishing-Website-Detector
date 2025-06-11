@@ -11,9 +11,10 @@
 
 ## 📸 Demo
 
-![Demo Screenshot](./assets/demo.gif)
+![Demo Screenshot](./Screenshots/demo.gif)
 
-> 🚧 _Live demo and deployment instructions coming soon..._
+(./Screenshots/dash1.png)
+(./Screenshots/ext2.png)
 
 ---
 
@@ -47,6 +48,36 @@
 
 ```bash
 git clone https://github.com/likithsshetty/Real-Time-Phishing-Detector.git
-````
+```
 
-cd Real-Time-Phishing-Detector
+### 2. Create Conda environment and install all packages.
+navigate to backend folder and use the below command to install the packages.
+
+```bash
+conda env create -f environment.yml
+conda activate myenv
+```
+
+### 3. To install node dependencies for frontend.
+navigate to frontend folder and use the below command to install the modules.
+
+```bash
+npm install
+```
+
+### 4. To install node dependencies for Extension.
+navigate to extension folder and use the below command to install the modules.
+
+```bash
+npm install
+```
+
+Run ```bash npm run build``` to create extension
+Add the extension folder in your desired browser
+
+---
+
+## ⚙️ Running the project
+
+use ```bash python main.py``` inside the backend folder
+use ```bash npm run dev``` inside the frontend folder
